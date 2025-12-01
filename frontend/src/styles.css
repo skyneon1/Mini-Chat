@@ -1,0 +1,14 @@
+body { font-family: system-ui, Arial; margin:0; height:100vh; }
+.layout { display:flex; height:100vh; }
+.sidebar { width:240px; border-right:1px solid #eee; padding:12px; box-sizing:border-box; }
+.chat { flex:1; display:flex; flex-direction:column; }
+.messages { flex:1; padding:12px; overflow:auto; background:#fafafa; }
+.composer { display:flex; padding:8px; gap:8px; border-top:1px solid #eee; }
+.message { padding:8px; margin-bottom:8px; background:#fff; border-radius:6px; box-shadow:0 0 0 1px rgba(0,0,0,0.02); }
+.center { display:grid; place-items:center; height:100vh; }
+.card { display:flex; flex-direction:column; gap:8px; padding:16px; min-width:320px; border:1px solid #ddd; border-radius:8px; }
+input, button { padding:8px; border-radius:6px; border:1px solid #ccc; }
+button { cursor:pointer; }
+.link { background:transparent; border:none; color:blue; text-decoration:underline; cursor:pointer; }
+li { list-style:none; padding:6px; cursor:pointer; }
+li.active { background:#eef; }
