@@ -28,5 +28,3 @@
    npm run dev
    ```
 4. Open the frontend URL printed by Vite (usually http://localhost:5173)
-
-This scaffold is intentionally minimal so you can expand features (typing indicator, private channels, message editing).
